@@ -1,10 +1,10 @@
 import { Config } from "./config.types";
 
 const config: Config = {
-  eventName: "DemoCon",
+  eventName: "Fantastika 2024",
   locale: "en",
   description: `
-    An interactive map of the DemoCon venue.
+    An interactive map of the Fantastika venue.
 
     This is an example of how you can use ConCarte to create an interactive
     map of your event. This map is for a fictional event called DemoCon, and
@@ -30,15 +30,11 @@ const config: Config = {
     src: "/map.png",
     rooms: [
       {
-        id: "silent-room",
-        label: "Silent room",
+        id: "annat",
+        label: "Annat",
         aliases: ["Jackfield Boardroom"],
         description: `
-          This is a room intended for sitting in silence, where no activities
-          are allowed (including reading or using your phone). This will be
-          available each day from 11am. Note, there may be noise leaking from
-          neighbouring rooms, and the aircon makes some noise, so do bring noise
-          cancelling headphones if you need complete silence.
+          [Programme schedule](https://guide.fantastika2024.com/)
         `,
         area: [
           [202, 499],
@@ -48,11 +44,11 @@ const config: Config = {
         ],
       },
       {
-        id: "pattingham",
-        label: "Pattingham",
+        id: "kafeet",
+        label: "Kafeet",
         aliases: ["Programme"],
         description: `
-          [Programme schedule](https://guide.example.co.uk/pattingham)
+          [Programme schedule](https://guide.fantastika2024.com/)
         `,
         area: [
           [262, 470],
@@ -69,15 +65,15 @@ const config: Config = {
           If you need help with anything, this is the place to go. We can help
           with lost property, lost people, and any other issues you might have.
           This is also where the volunteers desk is.
-          
+
           # Opening hours:
-          
+
           Friday: 9:30am - 11:00pm
-          
+
           Saturday: 9:30am-11pm
-          
+
           Sunday: 9:30am-midnight
-          
+
           Monday: 9:30am-11pm
         `,
         area: [
@@ -104,12 +100,11 @@ const config: Config = {
         ],
       },
       {
-        id: "quiet-activities",
-        label: "Quiet activities",
+        id: "lillascen1",
+        label: "Lilla scen - 1",
         aliases: ["Beckbury 4"],
         description: `
-          A place where you may do a jigsaw or read a book/electronic item, but
-          may not make phone calls.
+          [Programme schedule](https://guide.fantastika2024.com/)
         `,
         area: [
           [422, 655],
@@ -119,12 +114,11 @@ const config: Config = {
         ],
       },
       {
-        id: "games",
-        label: "Games",
+        id: "luigi2",
+        label: "Luigi - 2",
         aliases: ["Ryton"],
         description: `
-          Play games with friends, or make new friends by joining a game. There
-          will be a selection of games available, or you can bring your own.
+          [Programme schedule](https://guide.fantastika2024.com/)
         `,
         area: [
           [884, 500],
@@ -196,13 +190,13 @@ const config: Config = {
         aliases: ["Entrance 1", "Car park"],
         description: `
           # Opening times
-          
+
           Friday: 9:30am - 11:00pm
-          
+
           Saturday: 9:30am-11pm
-          
+
           Sunday: 9:30am-midnight
-          
+
           Monday: 9:30am-11pm
         `,
         area: [
@@ -218,13 +212,13 @@ const config: Config = {
         aliases: ["Entrance 2"],
         description: `
           # Opening times
-          
+
           Friday: 9:30am - 11:00pm
-          
+
           Saturday: 9:30am-11pm
-          
+
           Sunday: 9:30am-midnight
-          
+
           Monday: 9:30am-11pm
         `,
         area: [
@@ -251,13 +245,13 @@ const config: Config = {
         aliases: ["Entrance 4", "Hotels"],
         description: `
           # Opening times
-          
+
           Friday: 9:30am - 11:00pm
-          
+
           Saturday: 9:30am-11pm
-          
+
           Sunday: 9:30am-midnight
-          
+
           Monday: 9:30am-11pm
         `,
         area: [
@@ -268,11 +262,11 @@ const config: Config = {
         ],
       },
       {
-        id: "ironbridge",
-        label: "Ironbridge",
+        id: "spelrummet2",
+        label: "Spelrummet - 2",
         aliases: ["Programme"],
         description: `
-          [Programme schedule](https://guide.example.co.uk/ironbridge)
+          [Programme schedule](https://guide.fantastika2024.com/)
         `,
         area: [
           [1321, 363],
@@ -283,21 +277,10 @@ const config: Config = {
         ],
       },
       {
-        id: "dealers",
-        label: "Dealers & Fan Tables",
+        id: "storascen1",
+        label: "Stora scen - 1",
         description: `
-          A selection of dealers and fan tables will be available for you to
-          browse. Please note that some dealers may only accept cash.
-          
-          # Opening times
-          
-          Friday: 2pm-7pm
-          
-          Saturday: 10am-6pm
-          
-          Sunday: 10am-6pm
-          
-          Monday: 10am-2pm
+          [Programme schedule](https://guide.fantastika2024.com/)
         `,
         area: [
           [1465, 363],
@@ -323,19 +306,10 @@ const config: Config = {
         ],
       },
       {
-        id: "art-show",
-        label: "Art show",
+        id: "ute",
+        label: "Ute",
         description: `
-          The art show will be open from 10am-6pm each day. Please note that
-          some pieces may be for sale.
-          
-          # Opening times
-          
-          Friday: Preview 4pm-5pm, sales open 5pm-7pm
-          
-          Saturday: 10am-6pm
-          
-          Sunday: 10am-5pm (collection of purchased art, 4pm-6:30pm)
+          [Programme schedule](https://guide.fantastika2024.com/)
         `,
         area: [
           [1639, 363],
